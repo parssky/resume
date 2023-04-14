@@ -1,6 +1,7 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
-import { AiOutlineTool } from "react-icons/ai";
+import { AiOutlineTool, AiFillMobile } from "react-icons/ai";
+import { FaPhotoVideo } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -20,7 +21,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused towards React and Next.js.
+      We've worked with the following technologies.
     </SectionText>
     <List>
       <ListItem>
@@ -43,7 +44,20 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, Wordpress
+            Node.js, Express.Js <br />
+            Next.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiFillMobile size="6rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Mobile</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Kotlin, Flutter, Adndroid Studio
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +69,19 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PS, XD, Zeplin, Figma, Avocode
+            PS, XD, Figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaPhotoVideo size="5.5rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Graphic Tools</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            PhotoShop, Illustrator
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +93,7 @@ const Technologies = () => (
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WordPress CMS, Jira, Trello, Git
+            WordPress CMS, Trello, Git, GitHub
           </ListParagraph>
         </ListContainer>
       </ListItem>

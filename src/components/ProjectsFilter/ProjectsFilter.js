@@ -1,7 +1,6 @@
 import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
-import { SiReact, SiJavascript } from "react-icons/si";
-import { FaPhp } from "react-icons/fa";
+import { SiAdobephotoshop, SiReact, SiJavascript } from "react-icons/si";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
   <section>
@@ -35,11 +34,11 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       </Button>
       <Button
         type="button"
-        className={filterBy === "PHP" ? "active" : null}
-        aria-label="Filter by PHP"
-        onClick={() => filter("php")}
+        className={filterBy === "Photoshop" ? "active" : null}
+        aria-label="Filter by PhotoShop"
+        onClick={() => filter("photoshop")}
       >
-        <FaPhp />
+        <SiAdobephotoshop />
       </Button>
     </FilterContainer>
   </section>

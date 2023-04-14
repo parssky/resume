@@ -22,9 +22,9 @@ const AllProjects = () => {
         setFilterBy("JavaScript");
         break;
 
-      case "php":
-        setData([...projects].filter((p) => p.mainType === "php"));
-        setFilterBy("PHP");
+      case "photoshop":
+        setData([...projects].filter((p) => p.mainType === "photoshop"));
+        setFilterBy("PhotoShop");
         break;
 
       case "react":
@@ -43,7 +43,7 @@ const AllProjects = () => {
     <Layout>
       <Section nopadding id="projects">
         <SectionDivider divider style={{ marginBottom: 0 }} />
-        <PageTitle>All My Relevant Projects</PageTitle>
+        <PageTitle>All Our Team Relevant Projects</PageTitle>
         <ProjectsFilter filter={handleFilter} filterBy={filterBy} />
         <AnimateSharedLayout>
           <GridContainer layout>

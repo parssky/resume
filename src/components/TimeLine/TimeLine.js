@@ -46,7 +46,7 @@ const Timeline = () => {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
           (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
+        TimeLineData.length
       );
 
       setActiveItem(index);
@@ -70,13 +70,23 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionDivider divider />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>About Us</SectionTitle>
       <SectionText>
-        Hi, I'm Infvyr - a passionate frontend developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est harum impedit laborum, nobis odit porro quibusdam saepe suscipit! Accusamus adipisci aliquam amet consectetur dolore doloremque eaque earum eius, est eveniet fuga, id itaque laudantium natus nesciunt nihil obcaecati omnis possimus quibusdam repellat sed velit vero. A, accusamus, adipisci aliquam dolorem eveniet excepturi fuga incidunt libero minima nisi obcaecati quae saepe! Consectetur maiores natus reiciendis rem!
+        Hi, We are CodeMode - a passionate team . Mobile developer, Web developer , Graphic designer , ...
       </SectionText>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus amet, beatae commodi consequuntur corporis cumque dicta doloremque eaque earum enim ex excepturi exercitationem fuga inventore ipsam, iste itaque laboriosam libero maiores, maxime nisi nulla odio odit omnis possimus quaerat quam quasi rerum sequi tempore temporibus vitae voluptates. Autem doloribus, veritatis! Atque aut inventore natus nulla quaerat suscipit tempore voluptates?
+        In this team we work on projects with full attention and make employers happy :)
       </SectionText>
+      <SectionText>
+        <h2>Team members :</h2><br />
+
+        Parsa Bakhtiari (Programmer)<br />
+        Mohammad Amin Jeyhoonian (Programmer)<br />
+        Amirhoseyn Almasi (Graphic Designer)
+
+      </SectionText>
+
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

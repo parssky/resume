@@ -1,253 +1,337 @@
 export const projects = [
   {
-    title: "Click Colour",
+    title: "Drinks Industry",
     description:
-      "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
+      "Graphic design with PhotoShop for Drinks Industry",
     image: "images/jpgs/hex-color-1.jpg",
     imageWebp: "images/webps/hex-color-1.webp",
     images: [
       {
-        original: "images/projects/ClickColour/hex-color-1.jpg",
+        original: "images/projects/ClickColour/1.jpg",
         loading: "lazy",
-        originalAlt: "hex-color-1",
+        originalAlt: "Drinks Industry",
       },
       {
-        original: "images/projects/ClickColour/hex-color-2.jpg",
+        original: "images/projects/ClickColour/2.jpg",
         loading: "lazy",
-        originalAlt: "hex-color-2",
+        originalAlt: "Drinks Industry",
       },
+      {
+        original: "images/projects/ClickColour/3.jpg",
+        loading: "lazy",
+        originalAlt: "Drinks Industry",
+      },
+      {
+        original: "images/projects/ClickColour/4.jpg",
+        loading: "lazy",
+        originalAlt: "Drinks Industry",
+      },
+      {
+        original: "images/projects/ClickColour/5.jpg",
+        loading: "lazy",
+        originalAlt: "Drinks Industry",
+      },
+      {
+        original: "images/projects/ClickColour/6.jpg",
+        loading: "lazy",
+        originalAlt: "Drinks Industry",
+      },
+      {
+        original: "images/projects/ClickColour/7.jpg",
+        loading: "lazy",
+        originalAlt: "Drinks Industry",
+      },
+
     ],
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["PhotoShop", "Adobe", "Graphic Design"],
     id: 1,
     order: 100,
-    mainType: "javascript",
+    mainType: "photoshop",
   },
   {
-    title: "Sleet",
+    title: "Food industry",
     description:
-      "This is a WordPress starter theme called sleet. A theme meant for beginning theme development from scratch with a modern workflow at that time, in February 2021.",
+      "This posters are graphic designs in matter of food inustries, restaurants and coffee Shops",
     image: "images/jpgs/sleet.jpg",
     imageWebp: "images/webps/sleet.webp",
     images: [
       {
-        original: "images/projects/sleet.webp",
+        original: "images/projects/sleet/1.jpg",
         loading: "lazy",
         originalAlt: "sleet",
-      }
+      },
+      {
+        original: "images/projects/sleet/2.jpg",
+        loading: "lazy",
+        originalAlt: "sleet",
+      },
+      {
+        original: "images/projects/sleet/3.jpg",
+        loading: "lazy",
+        originalAlt: "sleet",
+      },
+      {
+        original: "images/projects/sleet/4.jpg",
+        loading: "lazy",
+        originalAlt: "sleet",
+      },
+      {
+        original: "images/projects/sleet/5.jpg",
+        loading: "lazy",
+        originalAlt: "sleet",
+      },
+      {
+        original: "images/projects/sleet/6.jpg",
+        loading: "lazy",
+        originalAlt: "sleet",
+      },
+      {
+        original: "images/projects/sleet/7.jpg",
+        loading: "lazy",
+        originalAlt: "sleet",
+      },
+
     ],
-    tags: ["PHP", "WordPress", "JavaScript", "HTML", "SCSS"],
+    tags: ["Food", "PhotoShop", "Illustrator", "SocialMedia", "Instagram", "Photography"],
     id: 6,
     order: 98,
-    mainType: "php",
+    mainType: "photoshop",
   },
   {
-    title: "React Todo/Blog",
+    title: "Hygiene industry",
     description:
-      "When I have commenced to learn React JS, I built this nice and cool React application. It combines a Todo and blog components as well as contact. The whole stack is pointed below.",
-    image: "images/jpgs/React-todo-and-blog-home-1.jpg",
+      "Graphic design for Hygiene industry",
+    image: "images/jpgs/1.jpg",
     imageWebp: "images/webps/React-todo-and-blog-home-1.webp",
     images: [
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg",
+          "images/projects/ReactTodoBlog/1.jpg",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-home-1",
+        originalAlt: "Hygiene industry",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg",
+          "images/projects/ReactTodoBlog/2.jpg",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-1",
+        originalAlt: "Hygiene industry",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg",
+          "images/projects/ReactTodoBlog/3.jpg",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-2",
+        originalAlt: "Hygiene industry",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg",
+          "images/projects/ReactTodoBlog/4.jpg",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-contact",
+        originalAlt: "Hygiene industryt",
+      },
+      {
+        original:
+          "images/projects/ReactTodoBlog/5.jpg",
+        loading: "lazy",
+        originalAlt: "Hygiene industryt",
+      },
+      {
+        original:
+          "images/projects/ReactTodoBlog/6.jpg",
+        loading: "lazy",
+        originalAlt: "Hygiene industryt",
+      },
+      {
+        original:
+          "images/projects/ReactTodoBlog/7.jpg",
+        loading: "lazy",
+        originalAlt: "Hygiene industryt",
+      },
+      {
+        original:
+          "images/projects/ReactTodoBlog/8.jpg",
+        loading: "lazy",
+        originalAlt: "Hygiene industryt",
+      },
+      {
+        original:
+          "images/projects/ReactTodoBlog/9.jpg",
+        loading: "lazy",
+        originalAlt: "Hygiene industryt",
+      },
+      {
+        original:
+          "images/projects/ReactTodoBlog/10.jpg",
+        loading: "lazy",
+        originalAlt: "Hygiene industryt",
       },
     ],
     tags: [
-      "React",
-      "React hooks",
-      "React Hook Form",
-      "React transition group",
-      "React router",
-      "React Modal",
-      "React Query",
-      "Axios",
-      "Reddit API",
-      "localstorage",
+      "PhotoShop",
+      "Adobe",
+      "Graphic Design"
     ],
     id: 4,
     order: 94,
-    mainType: "react",
+    mainType: "photoshop",
   },
   {
-    title: "Cryptocurrency",
+    title: "Expert Events",
     description:
-      "Cryptocurrency app is my best React application so far. It's built up using Ant design, RTK Query, ChartJS, Coinranking and Bing News API. I have learnt a lot of interesting technologies like RTK Query, ChartJS as well as integrating custom features into Ant components like filter/sorting data, view blocks as list/grid or implementing load more component.",
+      "This site provides services for tour and tourism in canada",
     image: "images/jpgs/ReactCryptocurrencyApp.jpg",
     imageWebp: "images/webps/ReactCryptocurrencyApp.webp",
     images: [
       {
         original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyApp.jpg",
+          "images/projects/ReactCryptocurrency/0.jpg",
         loading: "lazy",
-        originalAlt: "React-Cryptocurrency",
+        originalAlt: "expert1",
       },
       {
         original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppHome.jpg",
+          "images/projects/ReactCryptocurrency/1.jpg",
         loading: "lazy",
-        originalAlt: "React-Cryptocurrency-Home",
+        originalAlt: "expert2",
       },
       {
         original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppCryptocurrencies.jpg",
+          "images/projects/ReactCryptocurrency/2.jpg",
         loading: "lazy",
-        originalAlt: "React--Cryptocurrency-Cryptocurrencies",
+        originalAlt: "expert3",
       },
       {
         original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppExchanges.jpg",
+          "images/projects/ReactCryptocurrency/3.jpg",
         loading: "lazy",
-        originalAlt: "React-Cryptocurrency-Exchanges",
+        originalAlt: "expert4",
+      },
+
+      {
+        original:
+          "images/projects/ReactCryptocurrency/5.jpg",
+        loading: "lazy",
+        originalAlt: "expert6",
       },
       {
         original:
-          "images/projects/ReactCryptocurrency/ReactCryptocurrencyAppNews.jpg",
+          "images/projects/ReactCryptocurrency/6.jpg",
         loading: "lazy",
-        originalAlt: "React-Cryptocurrency-News",
+        originalAlt: "expert7",
+      },
+      {
+        original:
+          "images/projects/ReactCryptocurrency/7.jpg",
+        loading: "lazy",
+        originalAlt: "expert8",
       },
     ],
     tags: [
       "React",
       "React Hooks",
       "Redux",
+      "Next.js",
       "RTK Query",
       "Rapid API",
       "Ant Design",
-      "ChartJS",
+
     ],
     id: 7,
     order: 93,
     mainType: "react",
   },
   {
-    title: "RLibrary",
+    title: "Hesabdar Mikham",
     description:
-      "Simple CRUD books system using Firebase/Firestore, Material UI, React, React Hook Form, React Router v6 and all these things bundled by vite",
+      "An application for service and accounting application for Hamedan Accountant Association",
     image: "images/jpgs/ReactLibraryHomeDark.jpg",
     imageWebp: "images/webps/ReactLibraryHomeDark.webp",
     images: [
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeDark.jpg",
+        original: "images/projects/Rlibrary/0.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary Home Dark",
+        originalAlt: "hesabdar mikham web",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeLight.jpg",
+        original: "images/projects/Rlibrary/1.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary Home Light",
+        originalAlt: "pic1",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeSignUpErrors.jpg",
+        original: "images/projects/Rlibrary/2.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary Home Sign uo Errors",
+        originalAlt: "pic2",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryViewLight.jpg",
+        original: "images/projects/Rlibrary/3.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary View Light",
+        originalAlt: "pic3",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryViewAddNewBook.jpg",
+        original: "images/projects/Rlibrary/4.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary View Add New Book",
+        originalAlt: "pic4",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryViewEditBook.jpg",
+        original: "images/projects/Rlibrary/5.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary View Edit Book",
+        originalAlt: "pic5",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryViewDeleteBook.jpg",
+        original: "images/projects/Rlibrary/6.jpg",
         loading: "lazy",
-        originalAlt: "RLibrary View Delete Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewMobile.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Mobile",
+        originalAlt: "pic6",
       },
     ],
     tags: [
-      "React",
-      "React hooks",
-      "Context API",
-      "React Suspense",
-      "Router DOM v6",
-      "Firebase/Firestore",
+      "Flutter",
+      "Mobile",
+      "Android",
+      "Provider",
+      "web App",
       "Material UI",
     ],
     id: 9,
     order: 91,
-    mainType: "react",
+    mainType: "flutter",
   },
   {
-    title: "Chat Room [Test]",
+    title: "Tajrish IELTS Academy",
     description:
-      "An interview test project that aims to verify skills in understanding the task and building UI with React.",
+      "A website for learning English and pass IELTS cetificate.",
     image: "images/jpgs/React-test Chat Room Intro dark.jpg",
     imageWebp: "images/webps/React-test Chat Room Intro dark.webp",
     images: [
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro dark.webp",
+        original: "images/projects/ReactTestChatRoom/0.webp",
         loading: "lazy",
-        originalAlt: "Chat Room Intro dark",
+        originalAlt: "Home page",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro light.webp",
+        original: "images/projects/ReactTestChatRoom/1.webp",
         loading: "lazy",
-        originalAlt: "Chat Room Intro light",
+        originalAlt: "courses",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat dark.webp",
+        original: "images/projects/ReactTestChatRoom/2.webp",
         loading: "lazy",
-        originalAlt: "Chat Room User Chat dark",
+        originalAlt: "radio",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat light.webp",
+        original: "images/projects/ReactTestChatRoom/3.webp",
         loading: "lazy",
-        originalAlt: "Chat Room User Chat light",
+        originalAlt: "login",
       },
       {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User extra options dark.webp",
+        original: "images/projects/ReactTestChatRoom/4.webp",
         loading: "lazy",
-        originalAlt: "Chat Room User extra options dark",
+        originalAlt: "login",
       },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info dark.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room User Info dark",
-      },
-      {
-        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info light.webp",
-        loading: "lazy",
-        originalAlt: "Chat Room User Info light",
-      },
+
     ],
     tags: [
-      "Typescript",
-      "Jotai",
+      "JavaScript",
       "SWR",
-      "Tailwind CSS",
+      "Antd CSS",
       "Headless UI",
       "json server",
       "React Error Boundary",
@@ -259,9 +343,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Starting my journey as a Junior web developer" },
-  { year: 2018, text: "Working as a front-end developer" },
-  { year: 2019, text: "Working as a full stack developer" },
-  { year: 2021, text: "Diving completely into ReactJS World" },
-  { year: 2022, text: "Starting my journey as a Next.js developer" },
+  { year: 2019, text: "Diving completely into Flutter and mobile World" },
+  { year: 2020, text: "Diving completely into Js and Node.js" },
+  { year: 2021, text: "Diving completely into Graphic and Design" },
+  { year: 2021, text: "Starting our journey into Marketing and Social Media" },
+  { year: 2022, text: "Starting our journey as a Android developer" },
+  { year: 2023, text: "Starting our journey as a Next.js developer" },
 ];

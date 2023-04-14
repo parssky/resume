@@ -14,6 +14,7 @@ import {
 } from "./CardStyles";
 import { BsPlusCircleFill } from "react-icons/bs";
 import ProjectModal from "../Modal/ProjectModal";
+import Link from "next/link";
 
 const variants = {
   pageInitial: {
@@ -32,12 +33,11 @@ const variants = {
 
 const ProjectCard = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, image, imageWebp, images } =
-    item;
+  const { title, description, tags, image, imageWebp, images } = item;
+
 
   return (
     <motion.div
